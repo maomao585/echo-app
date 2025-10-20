@@ -1,6 +1,6 @@
 import sys
 
-def echo()
+def echo():
     shout = "-s" in sys.argv  
     message = input("Please enter something: ")
     print(message.upper() if shout else message)
